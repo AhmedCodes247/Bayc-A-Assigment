@@ -1,0 +1,330 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    margin: 10px 80px;
+}
+.logo img{
+    width: 180px;
+    height: 75px;
+}
+.nav-bar{
+    display: flex;
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 10px;
+    line-height: normal;
+    color: #ffffff;
+    list-style: none;
+    gap: 20px;
+    margin-right: 100px;
+ 
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.main-image{
+    margin-left: 100px;
+    height: auto;
+}
+.main-image img{
+    width: 1150px;
+    border-radius: 3px;
+}
+.text{
+    margin: 60px 130px;
+    color: white;
+}
+.text h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+}
+.text p{
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: justify;
+    max-width: 590px;
+}
+.four-image{
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    justify-content: right;
+    margin-top: -300px;
+    margin-right: 130px;
+    flex-wrap: wrap;
+    gap: 20px 30px
+}
+.four-image img{
+    width: 170px;
+    height: 170px;
+}
+.h1-box p{
+    color: white;
+    margin-left: 120px;
+}
+.h1-box #fair{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    color: #BFC500;
+    font-size: 25.6px;
+}
+.h1-box #bonding{
+    font-family: Montserrat;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 16.8px;
+    color: #FFFFFF;
+}
+.h1-box #there{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: normal;
+}
+.h1-box #note{
+    font-family: Montserrat;
+    font-weight: 80;
+    font-size: 12px;
+    margin-left: 900px;
+    margin-top: -50px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 120px;
+    height: 120px;
+    background-color: #BFC500;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.box h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 23px;
+}
+.box p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+}
+.box button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height:  75px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: arial;
+    font-size: 16px;
+    color: #BFC500;
+}
+.container{
+    color: white;
+    margin-left: 120px;
+    font-family: Montserrat;
+    line-height: 25px;
+    font-weight: 400;
+    max-width: 1120px;
+    margin-top: 50px;
+    border-top: 1px solid #BFC500;
+    border-bottom: 1px solid #BFC500;
+}
+.container h1{
+    margin-top: 50px;
+}
+.container #each{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.container #the{
+    margin-top: 20px;
+}
+.container #to{
+    margin-top: 20px;
+}
+.image-focus{
+    margin-left: 780px;
+    margin-bottom: 50px;
+    margin-top: -250px;
+}
+.image-focus img{
+    width: 340px;
+    height: 320px;
+}
+.club{
+    color: white; 
+    font-family: Montserrat;
+    margin-left: 120px;
+}
+.club > h1{
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 32px;
+}
+.club p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.fifth-image{
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width:100px;
+    height:120px;
+    margin-left: 150px;
+    gap: 130px;
+}
+.fifth-image-paragraph{
+    display: flex;
+    color: #FFFFFF;
+    gap: 100px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-size: 12.8px;
+    font-weight: 100;
+    border-bottom: 1px solid #BFC500;
+    max-width: 1120px;
+}
+.fifth-image-paragraph p{
+    margin-bottom: 100px;
+}
+.the-bathroom {
+    color: white;
+    margin-left: 120px;
+    border-bottom: 1px solid #BFC500;
+    font-family: Montserrat;
+}
+.the-bathroom h1{
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 32px;
+}
+.the-bathroom  #the-bayc{
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.the-bathroom #each-ape{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.the-bathroom #were-a{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.bathroom-image{
+    margin-left: 900px;
+    margin-bottom: 50px;a
+    margin-top: -300px;
+}
+.bathroom-image img{
+    width: 162px;
+    height: 299px;
+}
+.roadmap{
+    color: white;
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.roadmap h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+.roadmap #rd-1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.roadmap #rd-2{
+    margin-top: 50px;
+}
+.roadmap #rd-3{
+    font-weight: 700;
+    color: #BFC500;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.roadmap #rd-4{
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.roadmap #rd-5{
+    margin-left: 30px;
+}
+.roadmap #rd-6{
+     margin-left: 30px;
+}
+.roadmap #rd-7{
+     margin-left: 30px;
+}
+
+.roadmap #rd-8{
+     margin-left: 30px;
+}
+
+.roadmap #rd-9{
+     margin-left: 30px;
+}
+
+.roadmap #rd-10{
+ margin-left: 30px;
+}
+
+.roadmap #rd-11{
+     margin-left: 30px;
+}
+
+.roadmap #rd-12{
+     margin-left: 30px;
+}
+
+.roadmap #rd-13{
+     margin-left: 30px;
+}
+
+.roadmap #rd-14{
+     margin-left: 30px;
+}
+
+.roadmap #rd-15{
+     margin-left: 30px;
+}
+
+.roadmap #rd-16{
+     margin-left: 30px;
+}
+
+.roadmap #rd-17{
+     margin-left: 30px;
+}
+
